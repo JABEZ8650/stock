@@ -52,8 +52,8 @@ GET /api/bonds/search?minCoupon=4.5&maturityBefore=2030-01-01
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/bond-api.git
-cd bond-api
+git clone https://github.com/jabez8650/stock.git
+cd stock/bond-api
 ```
 
 Run the server:

@@ -45,8 +45,8 @@ A simple mock API built in Go that simulates real-time equity (stock) data. It p
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/your-username/equity-api.git
-cd equity-api
+git clone https://github.com/jabez8650/stock.git
+cd stock/equity-api
 ```
 
 ### 2. Run the Server
