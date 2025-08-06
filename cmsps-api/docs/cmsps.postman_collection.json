@@ -1,0 +1,78 @@
+{
+  "info": {
+    "name": "CMSP Public API",
+    "_postman_id": "5d0f11f4-bca7-4b2b-a2a3-cmsptestid",
+    "description": "Mock Ethiopian CMSP Public API for filtering and detail lookup.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All CMSPs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/cmsps",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "cmsps"]
+        }
+      }
+    },
+    {
+      "name": "Filter by Type",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/cmsps?type=Telecom",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "cmsps"],
+          "query": [
+            {
+              "key": "type",
+              "value": "Telecom"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Filter by Licensed Date",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/cmsps?licensedAfter=2020-01-01",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "cmsps"],
+          "query": [
+            {
+              "key": "licensedAfter",
+              "value": "2020-01-01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get CMSP by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/cmsps/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "cmsps", "1"]
+        }
+      }
+    }
+  ]
+}
