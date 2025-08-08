@@ -8,15 +8,16 @@ Includes filtering by type and license date.
 - [Ethio Telecom](https://www.ethiotelecom.et)
 - [Safaricom Ethiopia](https://www.safaricom.et)
 
-## API Endpoints
+## API Endpoints:
 
 - `GET /api/cmsps`
   - Optional query params: `type`, `licensedBefore`, `licensedAfter`
 - `GET /api/cmsps/{id}`
 
-## Run Locally
+## Run 
 
 ```bash
 go mod tidy
 go run main.go
 ```
+
