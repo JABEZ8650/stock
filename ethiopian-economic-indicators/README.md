@@ -17,9 +17,13 @@ A simple Go REST API that serves Ethiopian macroeconomic data (2019–2024) and 
 ## Project Structure
 
 ethiopian-economic-indicators/
+|
 ├── economic_data.json # Raw macroeconomic data
+|
 ├── main.go # API implementation
+|
 ├── go.mod # Go module definition
+|
 └── README.md # Project documentation
 
 
