@@ -1,0 +1,56 @@
+[
+  {
+    "year": 2019,
+    "deposit_rate": 7.0,
+    "inflation_rate": 15.9,
+    "gdp_growth": 9.0,
+    "unemployment_rate": 3.7,
+    "exchange_rate_birr_usd": 29.1,
+    "trade_balance_usd": -7500
+  },
+  {
+    "year": 2020,
+    "deposit_rate": 7.0,
+    "inflation_rate": 20.6,
+    "gdp_growth": 6.1,
+    "unemployment_rate": 4.1,
+    "exchange_rate_birr_usd": 34.1,
+    "trade_balance_usd": -7800
+  },
+  {
+    "year": 2021,
+    "deposit_rate": 7.0,
+    "inflation_rate": 26.7,
+    "gdp_growth": 6.3,
+    "unemployment_rate": 4.3,
+    "exchange_rate_birr_usd": 43.7,
+    "trade_balance_usd": -8100
+  },
+  {
+    "year": 2022,
+    "deposit_rate": 7.0,
+    "inflation_rate": 33.6,
+    "gdp_growth": 5.8,
+    "unemployment_rate": 4.6,
+    "exchange_rate_birr_usd": 51.3,
+    "trade_balance_usd": -8300
+  },
+  {
+    "year": 2023,
+    "deposit_rate": 7.0,
+    "inflation_rate": 28.8,
+    "gdp_growth": 6.2,
+    "unemployment_rate": 4.2,
+    "exchange_rate_birr_usd": 55.0,
+    "trade_balance_usd": -8500
+  },
+  {
+    "year": 2024,
+    "deposit_rate": 7.0,
+    "inflation_rate": 25.0,
+    "gdp_growth": 6.5,
+    "unemployment_rate": 4.0,
+    "exchange_rate_birr_usd": 58.0,
+    "trade_balance_usd": -8600
+  }
+]
